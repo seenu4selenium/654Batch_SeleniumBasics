@@ -41,7 +41,7 @@ public class Vivek_Batch654_assignment {
 
 		File scrn = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileHandler.copy(scrn, new File(
-				"/Users/vivek/eclipse-workspace/Sel_Auto/Screenshots/Vivek_Batch654_assignment" + timestamp + ".png"));
+				"/Users/vivek/git/654Batch_SeleniumBasics/Screenshots/Vivek_Batch654_assignment" + timestamp + ".png"));
 
 		Thread.sleep(3000);
 		driver.quit();
